@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetName"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/topbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-70dp"
+        android:paddingLeft="100dp"
+        android:textColor="@color/black"
+        android:text="APPTTENDANCE"
+        android:textSize="35dp"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="50dp"
+        android:layout_marginBottom="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="HI TEACHER:"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:paddingLeft="80dp"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/username"/>
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="DONE"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        />
+
+
+</LinearLayout>

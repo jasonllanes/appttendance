@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/row"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:paddingLeft="10dp"
+            android:textSize="30dp"
+            android:maxLength="15"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginLeft="-35dp"
+            android:textColor="@android:color/transparent"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jason S. Llanes"
+            android:paddingLeft="10dp"
+            android:textSize="30dp"
+            android:maxLength="13"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:ellipsize="end"
+            android:maxLength="12"
+            android:maxLines="1"
+            android:text="PRESENT"
+
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

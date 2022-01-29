@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".showStudents"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <View
+
+        android:layout_width="397dp"
+        android:layout_height="80dp"
+        android:background="@drawable/topbar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="75dp"
+        android:text="TEACHER:"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:text="Jason S. Llanes"
+        android:maxLength="15"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-60dp"
+        android:layout_marginLeft="300dp"
+        android:background="@drawable/save"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/back" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/time"
+        android:layout_gravity="right"
+        android:layout_marginTop="-90dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATH"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8:00 - 5:00 PM"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/students"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textStyle="bold"
+            android:text="TIP:"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="LONG TAP TO DELETE OR UPDATE"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvStudents"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        />
+
+    <Button
+        android:id="@+id/btnAddStudents"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/plus"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

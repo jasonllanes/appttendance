@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/appttendanc"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/appttendance"
+        android:gravity="center" />
+
+
+
+    <View
+        android:id="@+id/icon"
+        android:layout_width="185dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/appttendanc"
+        android:background="@drawable/icon"
+        android:layout_gravity="center"
+        />
+
+    <View
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_below="@id/icon"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvGS"
+        android:layout_width="220dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:text="GET STARTED"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>
